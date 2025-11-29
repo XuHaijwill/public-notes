@@ -22,7 +22,7 @@ curl -X 'POST' \
 'http://192.168.60.134:8300/v1/auth/token/create' \
 -H 'accept: */*' \
 -H 'Content-Type: application/json' \
--H 'X-Vault-Token: hvs.qnMooHoMIGsSGl0p5sb8I3Uz' \
+-H 'X-Vault-Token: <YourToken>' \
 -d '{
  "policies": ["my-policy"],
  "ttl": "24h",
